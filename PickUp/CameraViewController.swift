@@ -886,7 +886,7 @@ extension CameraViewController {
         //let error: NSError! = nil
         let mlmodelcName: String = "yolov5m"  //yolov5n //"YOLOv3"    ObjectDetector
         guard let modelURL = Bundle.main.url(forResource: mlmodelcName, withExtension: "mlmodelc") else {
-            print("Model file is missing!!!!!")
+            print("Model file is missing!")
             return
         }
         do {
